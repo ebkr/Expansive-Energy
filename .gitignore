@@ -1,0 +1,10 @@
+/run/
+/gradle/
+/build/
+/.vscode/
+/.idea/
+/.gradle/
+/build.gradle
+/gradle.properties
+/gradlew
+/gradlew.bat

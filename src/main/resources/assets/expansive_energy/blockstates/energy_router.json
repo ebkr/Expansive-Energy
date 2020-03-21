@@ -1,0 +1,8 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "": {
+      "model": "expansive_energy:block/energy_router"
+    }
+  }
+}
