@@ -1,5 +1,6 @@
 package ebkr.expansive.energy.mod.common.item;
 
+import ebkr.expansive.energy.annotations.registry.info.DisplayName;
 import ebkr.expansive.energy.annotations.registry.info.RegistryName;
 import ebkr.expansive.energy.annotations.registry.type.IsItem;
 import ebkr.expansive.energy.mod.common.tab.Tabs;
@@ -7,6 +8,7 @@ import net.minecraft.item.Item;
 
 @IsItem
 @RegistryName("expansive_wrench")
+@DisplayName(en_us = "Expansive Wrench")
 public class ExpansiveWrenchItem extends Item {
 
     private static Properties build(Properties properties) {

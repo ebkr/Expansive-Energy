@@ -1,6 +1,6 @@
 package ebkr.expansive.energy.mod.resolver;
 
-import ebkr.expansive.energy.annotations.registry.info.RenderLayer;
+import ebkr.expansive.energy.annotations.registry.info.renderlayer.RenderLayer;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import org.reflections.Reflections;

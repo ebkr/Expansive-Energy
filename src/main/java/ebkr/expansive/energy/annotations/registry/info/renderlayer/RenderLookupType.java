@@ -1,4 +1,4 @@
-package ebkr.expansive.energy.annotations.registry.info;
+package ebkr.expansive.energy.annotations.registry.info.renderlayer;
 
 import net.minecraft.client.renderer.RenderType;
 

@@ -1,0 +1,8 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "": {
+      "model": "expansiveenergy:block/energy_bank"
+    }
+  }
+}

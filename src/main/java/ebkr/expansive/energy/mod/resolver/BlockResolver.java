@@ -1,7 +1,7 @@
 package ebkr.expansive.energy.mod.resolver;
 
 import ebkr.expansive.energy.ExpansiveEnergy;
-import ebkr.expansive.energy.annotations.registry.info.HasMaterial;
+import ebkr.expansive.energy.annotations.registry.info.material.HasMaterial;
 import ebkr.expansive.energy.annotations.registry.info.RegistryName;
 import ebkr.expansive.energy.annotations.registry.type.IsBlock;
 import ebkr.expansive.energy.annotations.registry.type.IsBlockItemOf;

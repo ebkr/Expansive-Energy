@@ -1,9 +1,8 @@
-package ebkr.expansive.energy.annotations.registry.info;
+package ebkr.expansive.energy.annotations.registry.type;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface RenderLayer {
-    RenderLookupType value();
+public @interface IsRecipe {
 }

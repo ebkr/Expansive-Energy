@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "expansive_energy:other/iron_core",
-		"1": "expansive_energy:other/powered_obsidian",
-		"particle": "expansive_energy:other/iron_core"
+		"0": "expansiveenergy:other/iron_core",
+		"1": "expansiveenergy:block/powered_obsidian",
+		"particle": "expansiveenergy:block/powered_obsidian"
 	},
 	"elements": [
 		{
@@ -255,8 +255,25 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 0.25, -3.5],
-			"scale": [0.61, 0.62, 0.61]
+			"translation": [0, -1.25, -1.5],
+			"scale": [0.32094, 0.37195, 0.36586]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -1, 0],
+			"scale": [0.31836, 0.35742, 0.34766]
+		},
+		"firstperson_righthand": {
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.51, 0.51, 0.51]
+		},
+		"gui": {
+			"rotation": [23, 28, 0],
+			"scale": [0.84, 0.77, 0.91]
+		},
+		"head": {
+			"scale": [1.31836, 1, 1.38867]
 		}
 	}
 }

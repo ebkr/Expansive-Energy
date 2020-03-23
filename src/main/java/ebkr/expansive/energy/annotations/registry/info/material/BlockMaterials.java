@@ -1,6 +1,8 @@
-package ebkr.expansive.energy.annotations.registry.info;
+package ebkr.expansive.energy.annotations.registry.info.material;
 
 import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MaterialColor;
+import net.minecraft.block.material.PushReaction;
 
 import java.util.function.Supplier;
 
@@ -47,7 +49,20 @@ public enum BlockMaterials {
     CORAL(() -> Material.CORAL),
     GOURD(() -> Material.GOURD),
     DRAGON_EGG(() -> Material.DRAGON_EGG),
-    CAKE(() -> Material.CAKE);
+    CAKE(() -> Material.CAKE),
+
+    // Custom
+    ENERGY_ROUTER(() -> new Material(
+            MaterialColor.PURPLE,
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            PushReaction.BLOCK)
+    );
 
     private Supplier<Material> materialSupplier;
 

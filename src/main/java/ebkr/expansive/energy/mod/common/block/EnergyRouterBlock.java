@@ -1,11 +1,12 @@
 package ebkr.expansive.energy.mod.common.block;
 
-import ebkr.expansive.energy.annotations.registry.info.HasMaterial;
-import ebkr.expansive.energy.mod.resolver.ResolvedStorage;
-import ebkr.expansive.energy.annotations.registry.info.BlockMaterials;
+import ebkr.expansive.energy.annotations.registry.info.DisplayName;
+import ebkr.expansive.energy.annotations.registry.info.material.BlockMaterials;
+import ebkr.expansive.energy.annotations.registry.info.material.HasMaterial;
 import ebkr.expansive.energy.annotations.registry.info.RegistryName;
 import ebkr.expansive.energy.annotations.registry.type.IsBlock;
 import ebkr.expansive.energy.mod.common.tile.EnergyRouterTile;
+import ebkr.expansive.energy.mod.resolver.ResolvedStorage;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.tileentity.TileEntity;
@@ -16,7 +17,8 @@ import javax.annotation.Nullable;
 
 @IsBlock
 @RegistryName("energy_router")
-@HasMaterial(BlockMaterials.IRON)
+@DisplayName(en_us = "Energy Router")
+@HasMaterial(BlockMaterials.ENERGY_ROUTER)
 public class EnergyRouterBlock extends Block {
 
     private static Properties build(Properties properties) {

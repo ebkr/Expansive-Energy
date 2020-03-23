@@ -1,0 +1,7 @@
+{
+  "block.expansiveenergy.energy_bank": "Energy Bank",
+  "block.expansiveenergy.energy_router": "Energy Router",
+  "block.expansiveenergy.powered_obsidian": "Powered Obsidian",
+  "item.expansiveenergy.expansive_wrench": "Expansive Wrench",
+  "itemGroup.expansiveenergy": "Expansive Energy"
+}

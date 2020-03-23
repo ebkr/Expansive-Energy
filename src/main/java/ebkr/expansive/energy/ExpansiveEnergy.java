@@ -23,7 +23,7 @@ public class ExpansiveEnergy {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public final static String MOD_ID = "expansive_energy";
+    public final static String MOD_ID = "expansiveenergy";
 
     public ExpansiveEnergy() {
         // Register the setup method for modloading
@@ -72,4 +72,5 @@ public class ExpansiveEnergy {
         // do something when the server starts
         LOGGER.info("HELLO from server starting");
     }
+
 }
